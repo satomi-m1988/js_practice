@@ -67,3 +67,21 @@ for(i = 1; i < 11; i++){
 }
 alert('1から10まで足し算した結果は' + num + 'です');
 
+// 関数
+// alertStringは変数です
+var alertString;
+// alertStringに引数を代入する
+alertString = addString("WebCamp");
+// alertStringを呼び出す
+alert(alertString);
+// 下記４行で関数を作成している
+function addString(strA){
+	var addStr = "Hello" + strA;
+	return addStr;
+}
+// 入力できる関数
+// prompt:促す
+// promptStrにprompt関数を代入する
+var promptStr = prompt('何か好きな文字を入力してください。');
+// promptStr変数を呼び出す
+alert(promptStr);
